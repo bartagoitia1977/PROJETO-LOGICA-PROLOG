@@ -1,0 +1,24 @@
+[trace]  ?- bebe_agua(X).
+   Call: (8) bebe_agua(_2912) ? creep
+   Call: (9) bebeu(_2912, agua) ? creep
+   Call: (10) homem(_2912) ? creep
+   Exit: (10) homem(eliezer) ? creep
+   Call: (10) bebida(agua) ? creep
+   Exit: (10) bebida(agua) ? creep
+   Call: (10) agua=agua ? creep
+   Exit: (10) agua=agua ? creep
+   Redo: (10) homem(_2912) ? creep
+   Exit: (10) homem(esdras) ? creep
+   Call: (10) bebida(agua) ? creep
+   Exit: (10) bebida(agua) ? creep
+   Call: (10) agua=agua ? creep
+   Exit: (10) agua=agua ? creep
+   Call: (10) sobebe(_2912, agua) ? creep
+   Call: (11) _2912=ester ? creep
+   Exit: (11) ester=ester ? creep
+   Call: (11) agua=agua ? creep
+   Exit: (11) agua=agua ? creep
+   Exit: (10) sobebe(ester, agua) ? creep
+   Exit: (9) bebeu(ester, agua) ? creep
+   Exit: (8) bebe_agua(ester) ? creep
+X = ester .

@@ -1,0 +1,633 @@
+[trace]  ?- bebe_suco(X).
+   Call: (8) bebe_suco(_2912) ? creep
+   Call: (9) come_frango(_2912) ? creep
+   Call: (10) comeu_frango(_2912) ? creep
+   Call: (11) comeu(_2912, frango) ? creep
+   Call: (12) homem(_2912) ? creep
+   Exit: (12) homem(eliezer) ? creep
+   Call: (12) prato_principal(frango) ? creep
+   Exit: (12) prato_principal(frango) ? creep
+   Call: (12) naocomeu(eliezer, frango) ? creep
+   Call: (13) eliezer=eliezer ? creep
+   Exit: (13) eliezer=eliezer ? creep
+   Call: (13) frango=picanha_argentina ? creep
+   Fail: (13) frango=picanha_argentina ? creep
+   Fail: (12) naocomeu(eliezer, frango) ? creep
+   Redo: (11) comeu(eliezer, frango) ? creep
+   Exit: (11) comeu(eliezer, frango) ? creep
+   Call: (11) bebeu(eliezer, suco_graviola) ? creep
+   Call: (12) homem(eliezer) ? creep
+   Exit: (12) homem(eliezer) ? creep
+   Call: (12) bebida(suco_graviola) ? creep
+   Exit: (12) bebida(suco_graviola) ? creep
+   Call: (12) suco_graviola=agua ? creep
+   Fail: (12) suco_graviola=agua ? creep
+   Redo: (11) bebeu(eliezer, suco_graviola) ? creep
+   Call: (12) naobebe(eliezer, suco_graviola) ? creep
+   Call: (13) eliezer=esdras ? creep
+   Fail: (13) eliezer=esdras ? creep
+   Fail: (12) naobebe(eliezer, suco_graviola) ? creep
+   Redo: (11) bebeu(eliezer, suco_graviola) ? creep
+   Exit: (11) bebeu(eliezer, suco_graviola) ? creep
+   Call: (11) come_picanha(eliezer) ? creep
+   Call: (12) comeu(eliezer, picanha_argentina) ? creep
+   Call: (13) homem(eliezer) ? creep
+   Exit: (13) homem(eliezer) ? creep
+   Call: (13) prato_principal(picanha_argentina) ? creep
+   Exit: (13) prato_principal(picanha_argentina) ? creep
+   Call: (13) naocomeu(eliezer, picanha_argentina) ? creep
+   Call: (14) eliezer=eliezer ? creep
+   Exit: (14) eliezer=eliezer ? creep
+   Call: (14) picanha_argentina=picanha_argentina ? creep
+   Exit: (14) picanha_argentina=picanha_argentina ? creep
+   Exit: (13) naocomeu(eliezer, picanha_argentina) ? creep
+   Call: (13) mulher(eliezer) ? creep
+   Fail: (13) mulher(eliezer) ? creep
+   Fail: (12) comeu(eliezer, picanha_argentina) ? creep
+   Fail: (11) come_picanha(eliezer) ? creep
+   Redo: (10) comeu_frango(eliezer) ? 
+   Exit: (10) comeu_frango(eliezer) ? creep
+   Call: (10) come_lasanha(eliezer) ? creep
+   Call: (11) comeu(eliezer, lasanha) ? creep
+   Call: (12) homem(eliezer) ? creep
+   Exit: (12) homem(eliezer) ? creep
+   Call: (12) prato_principal(lasanha) ? creep
+   Exit: (12) prato_principal(lasanha) ? creep
+   Call: (12) naocomeu(eliezer, lasanha) ? creep
+   Call: (13) eliezer=eliezer ? creep
+   Exit: (13) eliezer=eliezer ? creep
+   Call: (13) lasanha=picanha_argentina ? creep
+   Fail: (13) lasanha=picanha_argentina ? creep
+    Fail: (12) naocomeu(eliezer, lasanha) ? creep
+   Redo: (11) comeu(eliezer, lasanha) ? creep
+   Exit: (11) comeu(eliezer, lasanha) ? creep
+   Call: (11) bebe_leite(_3128) ? creep
+   Call: (12) bebeu(_3128, leite) ? creep
+   Call: (13) homem(_3128) ? creep
+   Exit: (13) homem(eliezer) ? creep
+   Call: (13) bebida(leite) ? creep
+   Exit: (13) bebida(leite) ? creep
+   Call: (13) leite=agua ? creep
+   Fail: (13) leite=agua ? creep
+   Redo: (12) bebeu(eliezer, leite) ? creep
+   Call: (13) naobebe(eliezer, leite) ? creep
+   Call: (14) eliezer=esdras ? creep
+   Fail: (14) eliezer=esdras ? creep
+   Fail: (13) naobebe(eliezer, leite) ? creep
+   Redo: (12) bebeu(eliezer, leite) ? creep
+   Exit: (12) bebeu(eliezer, leite) ? creep
+   Call: (12) comeu_frango(eliezer) ? creep
+   Call: (13) comeu(eliezer, frango) ? creep
+   Call: (14) homem(eliezer) ? creep
+   Exit: (14) homem(eliezer) ? creep
+   Call: (14) prato_principal(frango) ? creep
+   Exit: (14) prato_principal(frango) ? creep
+   Call: (14) naocomeu(eliezer, frango) ? creep
+   Call: (15) eliezer=eliezer ? creep
+   Exit: (15) eliezer=eliezer ? creep
+   Call: (15) frango=picanha_argentina ? creep
+   Fail: (15) frango=picanha_argentina ? creep
+   Fail: (14) naocomeu(eliezer, frango) ? creep
+   Redo: (13) comeu(eliezer, frango) ? creep
+   Exit: (13) comeu(eliezer, frango) ? creep
+   Call: (13) bebeu(eliezer, suco_graviola) ? creep
+   Call: (14) homem(eliezer) ? creep
+   Exit: (14) homem(eliezer) ? creep
+   Call: (14) bebida(suco_graviola) ? 
+   Exit: (14) bebida(suco_graviola) ? creep
+   Call: (14) suco_graviola=agua ? creep
+   Fail: (14) suco_graviola=agua ? creep
+   Redo: (13) bebeu(eliezer, suco_graviola) ? creep
+   Call: (14) naobebe(eliezer, suco_graviola) ? creep
+   Call: (15) eliezer=esdras ? creep
+   Fail: (15) eliezer=esdras ? creep
+   Fail: (14) naobebe(eliezer, suco_graviola) ? creep
+   Redo: (13) bebeu(eliezer, suco_graviola) ? creep
+   Exit: (13) bebeu(eliezer, suco_graviola) ? creep
+   Call: (13) come_picanha(eliezer) ? creep
+   Call: (14) comeu(eliezer, picanha_argentina) ? creep
+   Call: (15) homem(eliezer) ? creep
+   Exit: (15) homem(eliezer) ? creep
+   Call: (15) prato_principal(picanha_argentina) ? creep
+   Exit: (15) prato_principal(picanha_argentina) ? creep
+   Call: (15) naocomeu(eliezer, picanha_argentina) ? creep
+   Call: (16) eliezer=eliezer ? creep
+   Exit: (16) eliezer=eliezer ? creep
+   Call: (16) picanha_argentina=picanha_argentina ? creep
+   Exit: (16) picanha_argentina=picanha_argentina ? creep
+   Exit: (15) naocomeu(eliezer, picanha_argentina) ? creep
+   Call: (15) mulher(eliezer) ? creep
+   Fail: (15) mulher(eliezer) ? creep
+   Fail: (14) comeu(eliezer, picanha_argentina) ? creep
+   Fail: (13) come_picanha(eliezer) ? creep
+   Redo: (12) comeu_frango(eliezer) ? creep
+   Exit: (12) comeu_frango(eliezer) ? creep
+   Redo: (13) homem(_3128) ? creep
+   Exit: (13) homem(esdras) ? creep
+   Call: (13) bebida(leite) ? creep
+   Exit: (13) bebida(leite) ? creep
+   Call: (13) leite=agua ? creep
+   Fail: (13) leite=agua ? creep
+   Redo: (12) bebeu(esdras, leite) ? creep
+   Call: (13) naobebe(esdras, leite) ? creep
+   Call: (14) esdras=esdras ? creep
+   Exit: (14) esdras=esdras ? creep
+   Call: (14) leite=cafe ? creep
+   Fail: (14) leite=cafe ? creep
+   Fail: (13) naobebe(esdras, leite) ? creep
+   Redo: (12) bebeu(esdras, leite) ? creep
+   Exit: (12) bebeu(esdras, leite) ? creep
+   Call: (12) comeu_frango(esdras) ? creep
+   Call: (13) comeu(esdras, frango) ? creep
+   Call: (14) homem(esdras) ? creep
+   Exit: (14) homem(esdras) ? creep
+   Call: (14) prato_principal(frango) ? creep
+   Exit: (14) prato_principal(frango) ? creep
+   Call: (14) naocomeu(esdras, frango) ? 
+    Call: (15) esdras=eliezer ? creep
+   Fail: (15) esdras=eliezer ? creep
+   Fail: (14) naocomeu(esdras, frango) ? creep
+   Redo: (13) comeu(esdras, frango) ? creep
+   Exit: (13) comeu(esdras, frango) ? creep
+   Call: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (14) homem(esdras) ? creep
+   Exit: (14) homem(esdras) ? creep
+   Call: (14) bebida(suco_graviola) ? creep
+   Exit: (14) bebida(suco_graviola) ? creep
+   Call: (14) suco_graviola=agua ? creep
+   Fail: (14) suco_graviola=agua ? creep
+   Redo: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (14) naobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=esdras ? creep
+   Exit: (15) esdras=esdras ? creep
+   Call: (15) suco_graviola=cafe ? creep
+   Fail: (15) suco_graviola=cafe ? creep
+   Fail: (14) naobebe(esdras, suco_graviola) ? creep
+   Redo: (13) bebeu(esdras, suco_graviola) ? creep
+   Exit: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (13) come_picanha(esdras) ? creep
+   Call: (14) comeu(esdras, picanha_argentina) ? creep
+   Call: (15) homem(esdras) ? creep
+   Exit: (15) homem(esdras) ? creep
+   Call: (15) prato_principal(picanha_argentina) ? creep
+   Exit: (15) prato_principal(picanha_argentina) ? creep
+   Call: (15) naocomeu(esdras, picanha_argentina) ? creep
+   Call: (16) esdras=eliezer ? creep
+   Fail: (16) esdras=eliezer ? creep
+   Fail: (15) naocomeu(esdras, picanha_argentina) ? creep
+   Redo: (14) comeu(esdras, picanha_argentina) ? creep
+   Exit: (14) comeu(esdras, picanha_argentina) ? creep
+   Call: (14) aolado(esdras, eunice) ? creep
+   Call: (15) homem(esdras) ? creep
+   Exit: (15) homem(esdras) ? creep
+   Call: (15) mulher(eunice) ? creep
+   Exit: (15) mulher(eunice) ? creep
+   Call: (15) esdras=eunice ? creep
+   Fail: (15) esdras=eunice ? creep
+   Redo: (14) aolado(esdras, eunice) ? creep
+   Exit: (14) aolado(esdras, eunice) ? creep
+   Exit: (13) come_picanha(esdras) ? creep
+   Redo: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=ester ? creep
+   Fail: (15) esdras=ester ? creep
+   Redo: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=eunice ? 
+   Fail: (15) esdras=eunice ? creep
+   Redo: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=eunice ? creep
+   Fail: (15) esdras=eunice ? creep
+   Redo: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=eunice ? creep
+   Fail: (15) esdras=eunice ? creep
+   Fail: (14) sobebe(esdras, suco_graviola) ? creep
+   Fail: (13) bebeu(esdras, suco_graviola) ? creep
+   Redo: (13) comeu(esdras, frango) ? creep
+   Call: (14) mulher(esdras) ? creep
+   Fail: (14) mulher(esdras) ? creep
+   Fail: (13) comeu(esdras, frango) ? creep
+   Fail: (12) comeu_frango(esdras) ? creep
+   Redo: (11) bebe_leite(esdras) ? creep
+   Exit: (11) bebe_leite(esdras) ? creep
+   Call: (11) defrente(eliezer, esdras) ? creep
+   Call: (12) mulher(eliezer) ? creep
+   Fail: (12) mulher(eliezer) ? creep
+   Redo: (11) defrente(eliezer, esdras) ? creep
+   Call: (12) homem(eliezer) ? creep
+   Exit: (12) homem(eliezer) ? creep
+   Call: (12) homem(esdras) ? creep
+   Exit: (12) homem(esdras) ? creep
+   Call: (12) eliezer=esdras ? creep
+   Fail: (12) eliezer=esdras ? creep
+   Redo: (11) defrente(eliezer, esdras) ? creep
+   Exit: (11) defrente(eliezer, esdras) ? creep
+   Exit: (10) come_lasanha(eliezer) ? creep
+   Redo: (11) bebeu(eliezer, suco_graviola) ? creep
+   Call: (12) sobebe(eliezer, suco_graviola) ? creep
+   Call: (13) eliezer=ester ? creep
+   Fail: (13) eliezer=ester ? creep
+   Redo: (12) sobebe(eliezer, suco_graviola) ? creep
+   Call: (13) eliezer=eunice ? creep
+   Fail: (13) eliezer=eunice ? creep
+   Redo: (12) sobebe(eliezer, suco_graviola) ? creep
+   Call: (13) eliezer=eunice ? creep
+   Fail: (13) eliezer=eunice ? creep
+   Redo: (12) sobebe(eliezer, suco_graviola) ? creep
+   Call: (13) eliezer=eunice ? creep
+   Fail: (13) eliezer=eunice ? creep
+   Fail: (12) sobebe(eliezer, suco_graviola) ? creep
+   Fail: (11) bebeu(eliezer, suco_graviola) ? creep
+   Redo: (12) homem(_2912) ? creep
+   Exit: (12) homem(esdras) ? creep
+   Call: (12) prato_principal(frango) ? creep
+   Exit: (12) prato_principal(frango) ? creep
+   Call: (12) naocomeu(esdras, frango) ? creep
+   Call: (13) esdras=eliezer ? 
+   Fail: (13) esdras=eliezer ? creep
+   Fail: (12) naocomeu(esdras, frango) ? creep
+   Redo: (11) comeu(esdras, frango) ? creep
+   Exit: (11) comeu(esdras, frango) ? creep
+   Call: (11) bebeu(esdras, suco_graviola) ? creep
+   Call: (12) homem(esdras) ? creep
+   Exit: (12) homem(esdras) ? creep
+   Call: (12) bebida(suco_graviola) ? creep
+   Exit: (12) bebida(suco_graviola) ? creep
+   Call: (12) suco_graviola=agua ? creep
+   Fail: (12) suco_graviola=agua ? creep
+   Redo: (11) bebeu(esdras, suco_graviola) ? creep
+   Call: (12) naobebe(esdras, suco_graviola) ? creep
+   Call: (13) esdras=esdras ? creep
+   Exit: (13) esdras=esdras ? creep
+    Call: (13) suco_graviola=cafe ? creep
+   Fail: (13) suco_graviola=cafe ? creep
+   Fail: (12) naobebe(esdras, suco_graviola) ? creep
+   Redo: (11) bebeu(esdras, suco_graviola) ? creep
+   Exit: (11) bebeu(esdras, suco_graviola) ? creep
+   Call: (11) come_picanha(esdras) ? creep
+   Call: (12) comeu(esdras, picanha_argentina) ? creep
+   Call: (13) homem(esdras) ? creep
+   Exit: (13) homem(esdras) ? creep
+   Call: (13) prato_principal(picanha_argentina) ? creep
+   Exit: (13) prato_principal(picanha_argentina) ? creep
+   Call: (13) naocomeu(esdras, picanha_argentina) ? creep
+   Call: (14) esdras=eliezer ? creep
+   Fail: (14) esdras=eliezer ? creep
+   Fail: (13) naocomeu(esdras, picanha_argentina) ? creep
+   Redo: (12) comeu(esdras, picanha_argentina) ? creep
+   Exit: (12) comeu(esdras, picanha_argentina) ? creep
+   Call: (12) aolado(esdras, eunice) ? creep
+   Call: (13) homem(esdras) ? creep
+   Exit: (13) homem(esdras) ? creep
+   Call: (13) mulher(eunice) ? creep
+   Exit: (13) mulher(eunice) ? creep
+   Call: (13) esdras=eunice ? creep
+   Fail: (13) esdras=eunice ? creep
+   Redo: (12) aolado(esdras, eunice) ? creep
+   Exit: (12) aolado(esdras, eunice) ? creep
+   Exit: (11) come_picanha(esdras) ? creep
+   Redo: (11) bebeu(esdras, suco_graviola) ? creep
+   Call: (12) sobebe(esdras, suco_graviola) ? creep
+   Call: (13) esdras=ester ? creep
+   Fail: (13) esdras=ester ? creep
+   Redo: (12) sobebe(esdras, suco_graviola) ? creep
+   Call: (13) esdras=eunice ? creep
+   Fail: (13) esdras=eunice ? 
+    Redo: (12) sobebe(esdras, suco_graviola) ? creep
+   Call: (13) esdras=eunice ? creep
+   Fail: (13) esdras=eunice ? creep
+   Redo: (12) sobebe(esdras, suco_graviola) ? creep
+   Call: (13) esdras=eunice ? creep
+   Fail: (13) esdras=eunice ? creep
+   Fail: (12) sobebe(esdras, suco_graviola) ? creep
+   Fail: (11) bebeu(esdras, suco_graviola) ? creep
+   Redo: (11) comeu(_2912, frango) ? creep
+   Call: (12) mulher(_2912) ? creep
+   Exit: (12) mulher(ester) ? creep
+   Call: (12) prato_principal(frango) ? creep
+   Exit: (12) prato_principal(frango) ? creep
+   Exit: (11) comeu(ester, frango) ? creep
+   Call: (11) bebeu(ester, suco_graviola) ? creep
+   Call: (12) homem(ester) ? creep
+   Fail: (12) homem(ester) ? creep
+   Redo: (11) bebeu(ester, suco_graviola) ? creep
+   Call: (12) sobebe(ester, suco_graviola) ? creep
+   Call: (13) ester=ester ? creep
+   Exit: (13) ester=ester ? creep
+   Call: (13) suco_graviola=agua ? creep
+   Fail: (13) suco_graviola=agua ? creep
+   Redo: (12) sobebe(ester, suco_graviola) ? creep
+   Call: (13) ester=eunice ? creep
+   Fail: (13) ester=eunice ? creep
+   Redo: (12) sobebe(ester, suco_graviola) ? creep
+   Call: (13) ester=eunice ? creep
+   Fail: (13) ester=eunice ? creep
+   Redo: (12) sobebe(ester, suco_graviola) ? creep
+   Call: (13) ester=eunice ? creep
+   Fail: (13) ester=eunice ? creep
+   Fail: (12) sobebe(ester, suco_graviola) ? creep
+   Fail: (11) bebeu(ester, suco_graviola) ? creep
+   Redo: (12) mulher(_2912) ? creep
+   Exit: (12) mulher(eunice) ? creep
+   Call: (12) prato_principal(frango) ? creep
+   Exit: (12) prato_principal(frango) ? creep
+   Exit: (11) comeu(eunice, frango) ? creep
+   Call: (11) bebeu(eunice, suco_graviola) ? creep
+   Call: (12) homem(eunice) ? creep
+   Fail: (12) homem(eunice) ? creep
+   Redo: (11) bebeu(eunice, suco_graviola) ? creep
+   Call: (12) sobebe(eunice, suco_graviola) ? creep
+   Call: (13) eunice=ester ? creep
+   Fail: (13) eunice=ester ? creep
+   Redo: (12) sobebe(eunice, suco_graviola) ? creep
+   Call: (13) eunice=eunice ? creep
+   Exit: (13) eunice=eunice ? 
+   Call: (13) suco_graviola=cafe ? creep
+   Fail: (13) suco_graviola=cafe ? creep
+   Redo: (12) sobebe(eunice, suco_graviola) ? creep
+   Call: (13) eunice=eunice ? creep
+   Exit: (13) eunice=eunice ? creep
+   Call: (13) suco_graviola=leite ? creep
+   Fail: (13) suco_graviola=leite ? creep
+   Redo: (12) sobebe(eunice, suco_graviola) ? creep
+   Call: (13) eunice=eunice ? creep
+   Exit: (13) eunice=eunice ? creep
+   Call: (13) suco_graviola=suco_graviola ? creep
+   Exit: (13) suco_graviola=suco_graviola ? creep
+   Exit: (12) sobebe(eunice, suco_graviola) ? creep
+   Exit: (11) bebeu(eunice, suco_graviola) ? creep
+   Call: (11) come_picanha(eunice) ? creep
+   Call: (12) comeu(eunice, picanha_argentina) ? creep
+   Call: (13) homem(eunice) ? creep
+   Fail: (13) homem(eunice) ? creep
+   Redo: (12) comeu(eunice, picanha_argentina) ? creep
+   Call: (13) mulher(eunice) ? creep
+   Exit: (13) mulher(eunice) ? creep
+   Call: (13) prato_principal(picanha_argentina) ? creep
+   Exit: (13) prato_principal(picanha_argentina) ? creep
+   Exit: (12) comeu(eunice, picanha_argentina) ? creep
+   Call: (12) aolado(eunice, eunice) ? creep
+   Call: (13) homem(eunice) ? creep
+   Fail: (13) homem(eunice) ? creep
+   Redo: (12) aolado(eunice, eunice) ? creep
+   Call: (13) mulher(eunice) ? creep
+   Exit: (13) mulher(eunice) ? creep
+   Call: (13) homem(eunice) ? creep
+   Fail: (13) homem(eunice) ? creep
+   Fail: (12) aolado(eunice, eunice) ? creep
+   Fail: (11) come_picanha(eunice) ? creep
+   Redo: (10) comeu_frango(eunice) ? creep
+   Exit: (10) comeu_frango(eunice) ? creep
+   Call: (10) come_lasanha(eunice) ? creep
+   Call: (11) comeu(eunice, lasanha) ? creep
+   Call: (12) homem(eunice) ? creep
+   Fail: (12) homem(eunice) ? creep
+   Redo: (11) comeu(eunice, lasanha) ? creep
+   Call: (12) mulher(eunice) ? creep
+   Exit: (12) mulher(eunice) ? creep
+   Call: (12) prato_principal(lasanha) ? creep
+   Exit: (12) prato_principal(lasanha) ? creep
+   Exit: (11) comeu(eunice, lasanha) ? creep
+   Call: (11) bebe_leite(_3128) ? creep
+   Call: (12) bebeu(_3128, leite) ? creep
+   Call: (13) homem(_3128) ? creep
+   Exit: (13) homem(eliezer) ? 
+   Call: (13) bebida(leite) ? creep
+   Exit: (13) bebida(leite) ? creep
+   Call: (13) leite=agua ? creep
+   Fail: (13) leite=agua ? creep
+   Redo: (12) bebeu(eliezer, leite) ? creep
+   Call: (13) naobebe(eliezer, leite) ? creep
+   Call: (14) eliezer=esdras ? creep
+   Fail: (14) eliezer=esdras ? creep
+   Fail: (13) naobebe(eliezer, leite) ? creep
+   Redo: (12) bebeu(eliezer, leite) ? creep
+   Exit: (12) bebeu(eliezer, leite) ? creep
+   Call: (12) comeu_frango(eliezer) ? creep
+   Call: (13) comeu(eliezer, frango) ? creep
+   Call: (14) homem(eliezer) ? creep
+   Exit: (14) homem(eliezer) ? creep
+   Call: (14) prato_principal(frango) ? creep
+   Exit: (14) prato_principal(frango) ? creep
+   Call: (14) naocomeu(eliezer, frango) ? creep
+   Call: (15) eliezer=eliezer ? creep
+   Exit: (15) eliezer=eliezer ? creep
+   Call: (15) frango=picanha_argentina ? creep
+   Fail: (15) frango=picanha_argentina ? creep
+   Fail: (14) naocomeu(eliezer, frango) ? creep
+   Redo: (13) comeu(eliezer, frango) ? creep
+   Exit: (13) comeu(eliezer, frango) ? creep
+   Call: (13) bebeu(eliezer, suco_graviola) ? creep
+   Call: (14) homem(eliezer) ? creep
+   Exit: (14) homem(eliezer) ? creep
+   Call: (14) bebida(suco_graviola) ? creep
+   Exit: (14) bebida(suco_graviola) ? creep
+   Call: (14) suco_graviola=agua ? creep
+   Fail: (14) suco_graviola=agua ? creep
+   Redo: (13) bebeu(eliezer, suco_graviola) ? creep
+   Call: (14) naobebe(eliezer, suco_graviola) ? creep
+   Call: (15) eliezer=esdras ? creep
+   Fail: (15) eliezer=esdras ? creep
+   Fail: (14) naobebe(eliezer, suco_graviola) ? creep
+   Redo: (13) bebeu(eliezer, suco_graviola) ? creep
+   Exit: (13) bebeu(eliezer, suco_graviola) ? creep
+   Call: (13) come_picanha(eliezer) ? creep
+   Call: (14) comeu(eliezer, picanha_argentina) ? creep
+   Call: (15) homem(eliezer) ? creep
+   Exit: (15) homem(eliezer) ? creep
+   Call: (15) prato_principal(picanha_argentina) ? creep
+   Exit: (15) prato_principal(picanha_argentina) ? creep
+   Call: (15) naocomeu(eliezer, picanha_argentina) ? creep
+   Call: (16) eliezer=eliezer ? creep
+   Exit: (16) eliezer=eliezer ? creep
+   Call: (16) picanha_argentina=picanha_argentina ? 
+    Exit: (16) picanha_argentina=picanha_argentina ? creep
+   Exit: (15) naocomeu(eliezer, picanha_argentina) ? creep
+   Call: (15) mulher(eliezer) ? creep
+   Fail: (15) mulher(eliezer) ? creep
+   Fail: (14) comeu(eliezer, picanha_argentina) ? creep
+   Fail: (13) come_picanha(eliezer) ? creep
+   Redo: (12) comeu_frango(eliezer) ? creep
+   Exit: (12) comeu_frango(eliezer) ? creep
+   Redo: (13) homem(_3128) ? creep
+   Exit: (13) homem(esdras) ? creep
+   Call: (13) bebida(leite) ? creep
+   Exit: (13) bebida(leite) ? creep
+   Call: (13) leite=agua ? creep
+   Fail: (13) leite=agua ? creep
+   Redo: (12) bebeu(esdras, leite) ? creep
+   Call: (13) naobebe(esdras, leite) ? creep
+   Call: (14) esdras=esdras ? creep
+   Exit: (14) esdras=esdras ? creep
+    Call: (14) leite=cafe ? creep
+   Fail: (14) leite=cafe ? creep
+   Fail: (13) naobebe(esdras, leite) ? creep
+   Redo: (12) bebeu(esdras, leite) ? creep
+   Exit: (12) bebeu(esdras, leite) ? creep
+   Call: (12) comeu_frango(esdras) ? creep
+   Call: (13) comeu(esdras, frango) ? creep
+   Call: (14) homem(esdras) ? creep
+   Exit: (14) homem(esdras) ? creep
+   Call: (14) prato_principal(frango) ? creep
+   Exit: (14) prato_principal(frango) ? creep
+   Call: (14) naocomeu(esdras, frango) ? creep
+   Call: (15) esdras=eliezer ? creep
+   Fail: (15) esdras=eliezer ? creep
+   Fail: (14) naocomeu(esdras, frango) ? creep
+   Redo: (13) comeu(esdras, frango) ? creep
+   Exit: (13) comeu(esdras, frango) ? creep
+   Call: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (14) homem(esdras) ? creep
+   Exit: (14) homem(esdras) ? creep
+   Call: (14) bebida(suco_graviola) ? creep
+   Exit: (14) bebida(suco_graviola) ? creep
+   Call: (14) suco_graviola=agua ? creep
+   Fail: (14) suco_graviola=agua ? creep
+   Redo: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (14) naobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=esdras ? creep
+   Exit: (15) esdras=esdras ? creep
+   Call: (15) suco_graviola=cafe ? creep
+   Fail: (15) suco_graviola=cafe ? creep
+   Fail: (14) naobebe(esdras, suco_graviola) ? 
+   Redo: (13) bebeu(esdras, suco_graviola) ? creep
+   Exit: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (13) come_picanha(esdras) ? creep
+   Call: (14) comeu(esdras, picanha_argentina) ? creep
+   Call: (15) homem(esdras) ? creep
+   Exit: (15) homem(esdras) ? creep
+   Call: (15) prato_principal(picanha_argentina) ? creep
+   Exit: (15) prato_principal(picanha_argentina) ? creep
+   Call: (15) naocomeu(esdras, picanha_argentina) ? creep
+   Call: (16) esdras=eliezer ? creep
+   Fail: (16) esdras=eliezer ? creep
+   Fail: (15) naocomeu(esdras, picanha_argentina) ? creep
+   Redo: (14) comeu(esdras, picanha_argentina) ? creep
+   Exit: (14) comeu(esdras, picanha_argentina) ? creep
+   Call: (14) aolado(esdras, eunice) ? creep
+   Call: (15) homem(esdras) ? creep
+   Exit: (15) homem(esdras) ? creep
+   Call: (15) mulher(eunice) ? creep
+   Exit: (15) mulher(eunice) ? creep
+   Call: (15) esdras=eunice ? creep
+   Fail: (15) esdras=eunice ? creep
+   Redo: (14) aolado(esdras, eunice) ? creep
+   Exit: (14) aolado(esdras, eunice) ? creep
+   Exit: (13) come_picanha(esdras) ? creep
+   Redo: (13) bebeu(esdras, suco_graviola) ? creep
+   Call: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=ester ? creep
+   Fail: (15) esdras=ester ? creep
+   Redo: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=eunice ? creep
+   Fail: (15) esdras=eunice ? creep
+   Redo: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=eunice ? creep
+   Fail: (15) esdras=eunice ? creep
+   Redo: (14) sobebe(esdras, suco_graviola) ? creep
+   Call: (15) esdras=eunice ? creep
+   Fail: (15) esdras=eunice ? creep
+   Fail: (14) sobebe(esdras, suco_graviola) ? creep
+   Fail: (13) bebeu(esdras, suco_graviola) ? creep
+   Redo: (13) comeu(esdras, frango) ? creep
+   Call: (14) mulher(esdras) ? creep
+   Fail: (14) mulher(esdras) ? creep
+   Fail: (13) comeu(esdras, frango) ? creep
+   Fail: (12) comeu_frango(esdras) ? creep
+   Redo: (11) bebe_leite(esdras) ? creep
+   Exit: (11) bebe_leite(esdras) ? creep
+   Call: (11) defrente(eunice, esdras) ? creep
+   Call: (12) mulher(eunice) ? creep
+   Exit: (12) mulher(eunice) ? creep
+   Call: (12) mulher(esdras) ? 
+    Fail: (12) mulher(esdras) ? creep
+   Redo: (11) defrente(eunice, esdras) ? creep
+   Call: (12) homem(eunice) ? creep
+   Fail: (12) homem(eunice) ? creep
+   Fail: (11) defrente(eunice, esdras) ? creep
+   Redo: (12) bebeu(_3128, leite) ? creep
+   Call: (13) sobebe(_3128, leite) ? creep
+   Call: (14) _3128=ester ? creep
+   Exit: (14) ester=ester ? creep
+   Call: (14) leite=agua ? creep
+   Fail: (14) leite=agua ? creep
+   Redo: (13) sobebe(_3128, leite) ? creep
+   Call: (14) _3128=eunice ? creep
+   Exit: (14) eunice=eunice ? creep
+   Call: (14) leite=cafe ? creep
+   Fail: (14) leite=cafe ? creep
+   Redo: (13) sobebe(_3128, leite) ? creep
+   Call: (14) _3128=eunice ? creep
+   Exit: (14) eunice=eunice ? creep
+   Call: (14) leite=leite ? creep
+   Exit: (14) leite=leite ? creep
+   Exit: (13) sobebe(eunice, leite) ? creep
+   Exit: (12) bebeu(eunice, leite) ? creep
+   Call: (12) comeu_frango(eunice) ? creep
+   Call: (13) comeu(eunice, frango) ? creep
+   Call: (14) homem(eunice) ? creep
+   Fail: (14) homem(eunice) ? creep
+   Redo: (13) comeu(eunice, frango) ? creep
+   Call: (14) mulher(eunice) ? creep
+   Exit: (14) mulher(eunice) ? creep
+   Call: (14) prato_principal(frango) ? creep
+   Exit: (14) prato_principal(frango) ? creep
+   Exit: (13) comeu(eunice, frango) ? creep
+   Call: (13) bebeu(eunice, suco_graviola) ? creep
+   Call: (14) homem(eunice) ? creep
+   Fail: (14) homem(eunice) ? creep
+   Redo: (13) bebeu(eunice, suco_graviola) ? creep
+   Call: (14) sobebe(eunice, suco_graviola) ? creep
+   Call: (15) eunice=ester ? creep
+   Fail: (15) eunice=ester ? creep
+   Redo: (14) sobebe(eunice, suco_graviola) ? creep
+   Call: (15) eunice=eunice ? creep
+   Exit: (15) eunice=eunice ? creep
+   Call: (15) suco_graviola=cafe ? creep
+   Fail: (15) suco_graviola=cafe ? creep
+   Redo: (14) sobebe(eunice, suco_graviola) ? creep
+   Call: (15) eunice=eunice ? creep
+   Exit: (15) eunice=eunice ? creep
+   Call: (15) suco_graviola=leite ? creep
+   Fail: (15) suco_graviola=leite ?
+    Redo: (14) sobebe(eunice, suco_graviola) ? creep
+   Call: (15) eunice=eunice ? creep
+   Exit: (15) eunice=eunice ? creep
+   Call: (15) suco_graviola=suco_graviola ? creep
+   Exit: (15) suco_graviola=suco_graviola ? creep
+   Exit: (14) sobebe(eunice, suco_graviola) ? creep
+   Exit: (13) bebeu(eunice, suco_graviola) ? creep
+   Call: (13) come_picanha(eunice) ? creep
+   Call: (14) comeu(eunice, picanha_argentina) ? creep
+   Call: (15) homem(eunice) ? creep
+   Fail: (15) homem(eunice) ? creep
+   Redo: (14) comeu(eunice, picanha_argentina) ? creep
+   Call: (15) mulher(eunice) ? creep
+   Exit: (15) mulher(eunice) ? creep
+   Call: (15) prato_principal(picanha_argentina) ? creep
+   Exit: (15) prato_principal(picanha_argentina) ? creep
+   Exit: (14) comeu(eunice, picanha_argentina) ? creep
+   Call: (14) aolado(eunice, eunice) ? creep
+   Call: (15) homem(eunice) ? creep
+   Fail: (15) homem(eunice) ? creep
+   Redo: (14) aolado(eunice, eunice) ? creep
+   Call: (15) mulher(eunice) ? creep
+   Exit: (15) mulher(eunice) ? creep
+   Call: (15) homem(eunice) ? creep
+   Fail: (15) homem(eunice) ? creep
+   Fail: (14) aolado(eunice, eunice) ? creep
+   Fail: (13) come_picanha(eunice) ? creep
+   Redo: (12) comeu_frango(eunice) ? creep
+   Exit: (12) comeu_frango(eunice) ? creep
+   Redo: (13) sobebe(_3128, leite) ? creep
+   Call: (14) _3128=eunice ? creep
+   Exit: (14) eunice=eunice ? creep
+   Call: (14) leite=suco_graviola ? creep
+   Fail: (14) leite=suco_graviola ? creep
+   Fail: (13) sobebe(_3128, leite) ? creep
+   Fail: (12) bebeu(_3128, leite) ? creep
+   Fail: (11) bebe_leite(_3128) ? creep
+   Fail: (10) come_lasanha(eunice) ? creep
+   Redo: (9) come_frango(eunice) ? creep
+   Exit: (9) come_frango(eunice) ? creep
+   Exit: (8) bebe_suco(eunice) ? creep
+X = eunice.

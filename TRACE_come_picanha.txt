@@ -1,0 +1,34 @@
+[trace]  ?- come_picanha(X).
+   Call: (8) come_picanha(_588) ? creep
+   Call: (9) comeu(_588, picanha_argentina) ? creep
+   Call: (10) homem(_588) ? creep
+   Exit: (10) homem(eliezer) ? creep
+   Call: (10) prato_principal(picanha_argentina) ? creep
+   Exit: (10) prato_principal(picanha_argentina) ? creep
+   Call: (10) naocomeu(eliezer, picanha_argentina) ? creep
+   Call: (11) eliezer=eliezer ? creep
+   Exit: (11) eliezer=eliezer ? creep
+   Call: (11) picanha_argentina=picanha_argentina ? creep
+   Exit: (11) picanha_argentina=picanha_argentina ? creep
+   Exit: (10) naocomeu(eliezer, picanha_argentina) ? creep
+   Redo: (10) homem(_588) ? creep
+   Exit: (10) homem(esdras) ? creep
+   Call: (10) prato_principal(picanha_argentina) ? creep
+   Exit: (10) prato_principal(picanha_argentina) ? creep
+   Call: (10) naocomeu(esdras, picanha_argentina) ? creep
+   Call: (11) esdras=eliezer ? creep
+   Fail: (11) esdras=eliezer ? creep
+   Fail: (10) naocomeu(esdras, picanha_argentina) ? creep
+   Redo: (9) comeu(esdras, picanha_argentina) ? creep
+   Exit: (9) comeu(esdras, picanha_argentina) ? creep
+   Call: (9) aolado(esdras, eunice) ? creep
+   Call: (10) homem(esdras) ? creep
+   Exit: (10) homem(esdras) ? creep
+   Call: (10) mulher(eunice) ? creep
+   Exit: (10) mulher(eunice) ? creep
+   Call: (10) esdras=eunice ? creep
+   Fail: (10) esdras=eunice ? creep
+   Redo: (9) aolado(esdras, eunice) ? creep
+   Exit: (9) aolado(esdras, eunice) ? creep
+   Exit: (8) come_picanha(esdras) ? creep
+X = esdras .
